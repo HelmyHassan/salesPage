@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+	<meta charset="utf-8" />
+	<title>SalesPage</title>
+	<meta name="description" content="Updates and statistics" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+   
+    <link  rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link href="css/fontawesome-free-6.1.0-web/css/all.min.css" rel="stylesheet">
+  <link  rel="stylesheet" href="css/style.css" type="text/css" >
+
+</head>
+
+    <body>
+
+
+      <header class="pos-header bg-white">
+        <div class="container-fluid ">
+          <div class="row align-items-center">
+                  
+                      <div class="col-8 ">
+                        <h3>Ever Connection</h3>
+                     
+                  </div>
+                  <div class="col-4  ">
+                    <div class="admin">
+                      <div class="dropdown col-md-auto">
+                        <button class="print"><i class="fa-solid fa-print"></i> Print</button>
+                        <span style="font-size: xx-large; font-weight: 100; color: #838282;margin-top: 20px;">|</span>
+                            
+                        <button class="btn  dropdown-toggle col col-lg-4" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <span>
+                            <span><img class="userImg" src="./img/icons8-user-64.png"/>Fname Lname</span><br>
+                            <span>#1001</span>
+                          </span>
+                          
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Log out</button>
+                          
+                        </div>
+                       
+                      </div>
+                     
+                    </div>
+                    
+                 
+              </div>
+              
+
+
+
+
+                  
+        </div>
+      </header>
+        
+
+        <div class="contentContainer">
+            <div style="margin-top: 30px;" class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-4">
+
+                        <div class="card card-custom gutter-b bg-white border-0">
+                            <div class="card-body">
+                                <nav class="navbar navbar-light bg-light p-0" >
+                                    <div class="container-fluid p-0">
+                                      <form class="d-flex" style="width: 100%;margin-bottom: 10px; position: relative;">
+                                        <input id="myInput" class="form-control " type="text" placeholder="Search" aria-label="Search" >
+                                        <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+                                      </form>
+                                    </div>
+                                  </nav>
+                                  <!--categories-->
+                               <div id="categoryContainer" class="categories">
+
+
+
+                                <button type="button" class=" filterBtn active btn-primary" data-filter="all">all Categories</button>
+                                <button type="button" class=" filterBtn btn-primary"  data-filter="Category01">Category01</button>
+                                <button type="button" class="filterBtn btn-primary" data-filter="Category02">Category02</button>
+                                <button type="button" class=" filterBtn btn-primary" data-filter="Category03">Category03</button>
+                                <button type="button" class="  filterBtn btn-primary" data-filter="Category04">Category04</button>
+                                <button type="button" class=" filterBtn btn-primary" data-filter="Category05">Category05</button>
+                                <button type="button" class=" filterBtn btn-primary" data-filter="Category06">Category06</button>
+                                <button type="button" class=" filterBtn btn-primary" data-filter="Category07">Category07</button>
+                                <button type="button" class=" filterBtn btn-primary" data-filter="Category08">Category08</button>
+                              
+                                    
+                                     
+                            </div>
+                               <div class="line"></div>
+                               <h3>Products</h3>
+                               <div class="line"></div>
+                               <!--products-->
+                               <div class="products">
+                                            <div class="product Category01">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 1</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category01">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 1</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category03">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 3</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category02">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 2</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category03">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 3</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category02">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 2</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <div class="product Category02">
+                                                <div class="card card-custom " >
+                                                    <img src="./img/project-4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body productDetails">
+                                                      <h5 class="card-title">Product 2</h5>
+                                                      <p class="card-text">60.00$</p>
+                                                     
+                                                    </div>
+                                                  </div>
+                                            </div>
+                               </div>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="col-xl-4 col-lg-8 col-md-8">
+                            <div class="card card-custom gutter-b bg-white border-0">
+                            <div class="customerTransaction">
+                              <div class="card-body">
+                               
+
+
+                                    
+                                    <!-- basic modals -->
+                                    <div class="modal fade" id="basicModal1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h4 class="modal-title" id="myModalLabel">Adding New Client</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="addModel" >
+                                              <label>Client Name:</label>
+                                            <input  class="form-control " type="text" placeholder="Name" aria-label="Search">
+                                          </div>
+                                          <div class="addModel" >
+                                            <label>Client Number:</label>
+                                          <input  class="form-control " type="text" placeholder="Number" aria-label="Search">
+                                        </div>
+                                        <div class="addModel" >
+                                          <label>Client Address:</label>
+                                        <input  class="form-control " type="text" placeholder="Address" aria-label="Search">
+                                      </div>
+                                      <div class="addModel"  >
+                                        <label>Additional Address:</label>
+                                      <input  class="form-control " type="text" placeholder="Address" aria-label="Search">
+                                    </div>
+                                         
+                                          </div>
+                                          <div class="modal-footer">
+                                            
+                                            <button type="button" class="btn btn-success submitBtn">Submit</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="modal fade" id="basicModal2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h4 class="modal-title" id="myModalLabel">dilvery Details</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+                                          <div class="modal-body">
+                                            <div class="select1">
+                                             <p>Select Sales Rep</p>
+                                                  <select class="formSelect  form-select form-select-sm" data-live-search="true" aria-label=".form-select-sm example">
+                                                      <option selected>Sales Rep</option>
+                                                      <option value="1">Oklsdfjgljkljgf frne</option>
+                                                      <option  value="2">reiueureiu e8r7</option>
+                                                      <option value="3">iuieui ey8yhj</option>
+                                                  </select>
+                                              </div>
+                                          <div class="addModel" >
+                                            <label>Dilvery Cost:</label>
+                                          <input  class="form-control " type="number" placeholder="Dilvery Cost" aria-label="Search">
+                                        </div>
+                                        <div class="addModel" >
+                                          <label>Client Address:</label>
+                                        <input  class="form-control " type="text" placeholder="Address" aria-label="Search">
+                                      </div>
+                                      
+                                         
+                                          </div>
+                                          <div class="modal-footer">
+                                            
+                                            <button type="button" class="btn btn-success submitBtn">Submit</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    
+                                    
+                                
+
+
+
+
+
+
+
+
+
+
+                             
+                                    <div class="oldClient card-custom">
+                                      <div class="addClint">
+                                        <h4 class="col-6">Client Details</h4>
+                                        <button class=" col-4 btn-success addBtn" data-toggle="modal" data-target="#basicModal1"><i class="fa-solid fa-plus"></i> Add New Client</button>
+                                        </div>
+                                        <div class="select1">
+                                        <label for="">choose Client</label>
+                                            <select class="formSelect  form-select form-select-sm" data-live-search="true" aria-label=".form-select-sm example">
+                                                <option selected>Client Name</option>
+                                                <option value="1">Oklsdfjgljkljgf frne</option>
+                                                <option  value="2">reiueureiu e8r7</option>
+                                                <option value="3">iuieui ey8yhj</option>
+                                            </select>
+                                        </div>
+
+                                            <div class="select1">
+                                        <label for="">Client Address</label>
+                                            <select class="formSelect form-select form-select-sm" aria-label=".form-select-sm example">
+                                                <option selected>Client Address</option>
+                                                <option value="1">Cairo</option>
+                                                <option value="2">banha</option>
+                                                <option value="3">shiplanga</option>
+                                            </select>
+                                        </div>
+                                        <div class="select1">
+                                            <label for="">Client Number</label>
+                                                <select class="formSelect form-select form-select-sm" aria-label=".form-select-sm example">
+                                                    <option selected>Client Number</option>
+                                                    <option value="1">0120302000</option>
+                                                    <option value="2">0230111110</option>
+                                                    <option value="3">0125454785</option>
+                                                </select>
+                                            </div>
+                                        
+                                    </div>
+                                    <div class=" fixTableHead   card-custom">
+                                        <table >
+                                            <thead class="table-info">
+                                              <tr>
+                                                <th scope="col">Product</th>
+                                                <th scope="col">Quantity</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Discount</th>
+                                                <th scope="col">Action</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody class="transBody">
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                  <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                  <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                    <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">4</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                     <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">5</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                     <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">6</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                     <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">7</th>
+                                                <td ><span class="minus"><i class="fa-solid fa-minus"></i></span>
+                                                     <input class="countInp" type="text" value="0"/>
+                                                    <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
+                                                <td>50.00$</td>
+                                                <td>00.00$</td>
+                                                <td><div class="delBtn" onclick="deleteRow(this);"><i class="fa-solid fa-trash-can"></i></div></td>
+                                              </tr>
+                                             
+                                              
+                                            </tbody>
+                                          </table>
+                                    </div>
+
+                                    <div class="transControl">
+                                        <button class="btn col-5 btn-cash">Add</button>
+                                        <button class="btn col-5  btn-danger">Remove</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                         </div>
+
+
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="card card-custom gutter-b bg-white border-0">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="qrCode">
+                                                    <img class="QRImg" src="./img/qrCode.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="campany-info">
+                                                    <h3>Company Name</h3>
+                                                    <p>Adress - Adress</p>
+                                                    <p>01201203545</p>
+                                                    <p>wwww.companywibsite.com</p>
+                                                </div>
+                                               
+                                                
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="qrCode">
+                                                    <img class="QRImg" src="./img/qrCode.png"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="customerData ">
+
+
+                                  
+                                    <table class="table table-borderless">
+                                      
+                                        <tbody>
+                                          <tr>
+                                            <th >Vendor Name:</th>
+                                            <td>mohamed ahmed mohamed</td>
+                                            
+                                          </tr>
+                                          <tr>
+                                            <th >Client Name:</th>
+                                            <td>mohamed ahmed mohamed</td>
+                                            
+                                          </tr>
+                                          <tr>
+                                            <th >Date:</th>
+                                            <td>21/3/2022</td>
+                                            
+                                          </tr>
+                                          </tbody>
+                                          </table>
+                                </div>
+                               
+                                <div class="checkout">
+                                    <table class="table table-light">
+                                        <!-- <caption>List of users</caption> -->
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Products</th>
+                                            <th scope="col">Price</th>
+                                            <th scope="col">Quantity</th>
+                                            <th scope="col">Total</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th >SweetShirt-black</th>
+                                            <td>50 $</td>
+                                            <td>02</td>
+                                            <td>100 $</td>
+                                          </tr>
+                                          <tr>
+                                            <th >weetShirt-black</th>
+                                            <td>50 $</td>
+                                            <td>02</td>
+                                            <td>100 $</td>
+                                          </tr>
+                                          <tr>
+                                            <th >weetShirt-black</th>
+                                            <td>50 $</td>
+                                            <td> 01</td>
+                                            <td>50 $</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                                <div class="line"></div>
+                                <div class="checkoutSummary">
+                                    <div class="checkoutProduct">
+                                    <label>Total</label>
+                                    <p class="checkoutP">450 $</p>
+                                    </div>
+                                    <div class="checkoutProduct">
+                                        <label>Dilvery <i data-toggle="modal" data-target="#basicModal2" class="fa-solid fa-circle-plus dileveryDetails"></i></label>
+                                        <p class="checkoutP">5 $</p>
+                                        </div>
+                                    <div class="checkoutProduct">
+                                        <label>Additional Fee</label>
+                                        <p class="checkoutP">5 $</p>
+                                            </div>
+                                    <div class="checkoutProduct">
+                                        <label>Discount</label>
+                                        <p class="checkoutP">10 $</p>
+                                                </div>
+                                     <div class="checkoutProduct">
+                                        <label>Final amount</label>
+                                        <p class="checkoutP">450 $</p>
+                                                    </div>
+                                </div>
+                                <div class="line"></div>
+                                <div class="checkoutButtons">
+                                    
+                                    <button class="btn col-5 btn-cash">Bay Cash</button>
+                                    <button class="btn col-5  btn-visa">Bay By Visa</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+  
+       
+        
+        <script src="jquery/jquery.min.js"></script>
+     
+        <script src="./bootstrap/popper.min.js"></script>
+        <!-- <script src="lib/jquery/jquery-migrate.min.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script> 
+    </body>
+</html>
